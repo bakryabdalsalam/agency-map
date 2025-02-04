@@ -76,6 +76,17 @@
       <label for="search-input" data-lang="searchLabel">Search by keyword:</label>
       <input type="text" id="search-input" placeholder="Enter city or neighborhood" />
 
+    <!-- NEW: City Filter -->
+    <label for="city-select" data-lang="cityLabel">City:</label>
+    <select id="city-select">
+      <option value="all" selected data-lang="allCities">All Cities</option>
+      <option value="cairo" data-lang="cairo">Cairo</option>
+      <option value="giza" data-lang="giza">Giza</option>
+      <option value="alexandria" data-lang="alexandria">Alexandria</option>
+      <option value="hurghada" data-lang="hurghada">Hurghada</option>
+      <option value="new cairo" data-lang="newCairo">New Cairo</option>
+    </select>
+
       <label for="property-type" data-lang="typeLabel">Property Type:</label>
       <select id="property-type">
         <option value="all" selected data-lang="typeAll">All Types</option>
