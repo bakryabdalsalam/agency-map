@@ -57,7 +57,7 @@
 
   // Contact property via WhatsApp
   window.contactPropertyWhatsapp = function(propertyTitle) {
-    const whatsappNumber = '1234567890'; // <-- Replace with your WhatsApp number
+    const whatsappNumber = '+201018745573'; // <-- Replace with your WhatsApp number
     // Customize the message to include the property title
     const message = encodeURIComponent(`Hello, I'm interested in ${propertyTitle}`);
     const url = `https://wa.me/${whatsappNumber}?text=${message}`;
@@ -66,7 +66,7 @@
 
   // Contact property via Call or SMS
   window.contactPropertyCall = function(propertyTitle) {
-    const phoneNumber = '1234567890'; // <-- Replace with your phone number
+    const phoneNumber = '+201018745573'; // <-- Replace with your phone number
     // Ask the user if they want to call or send an SMS.
     // (For example, OK = call; Cancel = SMS)
     if (confirm("Would you like to call? Press OK for a call, or Cancel to send a message.")) {
